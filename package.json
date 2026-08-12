@@ -1,0 +1,55 @@
+{
+  "name": "nbk-exchange-rate",
+  "version": "1.2.2",
+  "description": "Official National Bank of Kazakhstan (Kazakhstan) daily exchange rates — 48 currencies vs KZT, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "nbk",
+    "national",
+    "bank",
+    "of",
+    "kazakhstan",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "kzt",
+    "central-bank",
+    "official-rates",
+    "kazakhstan",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/nbk/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/nbk-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/nbk-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
