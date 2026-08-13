@@ -170,9 +170,9 @@ Pass `{ symbol: 'USD' }` instead of `source`/`target` to get the raw published r
 
 ## 🗺️ Currencies covered
 
-National Bank of Kazakhstan currently publishes rates covering **48 currencies** (as of the latest table):
+National Bank of Kazakhstan currently publishes rates covering **48 currencies** against the KZT (as of the latest table):
 
-`AED` · `AMD` · `AUD` · `AZN` · `BRL` · `BYN` · `CAD` · `CHF` · `CNY` · `CZK` · `DKK` · `EGP` · `EUR` · `GBP` · `GEL` · `HKD` · `HUF` · `IDR` · `ILS` · `INR` · `IRR` · `JPY` · `KGS` · `KRW` · `KWD` · `MDL` · `MNT` · `MXN` · `MYR` · `NOK` · `OMR` · `PKR` · `PLN` · `QAR` · `RON` · `RUB` · `SAR` · `SEK` · `SGD` · `THB` · `TJS` · `TRY` · `UAH` · `USD` · `UZS` · `VND` · `XDR` · `ZAR`
+🇦🇪 `AED` · 🇦🇲 `AMD` · 🇦🇺 `AUD` · 🇦🇿 `AZN` · 🇧🇷 `BRL` · 🇧🇾 `BYN` · 🇨🇦 `CAD` · 🇨🇭 `CHF` · 🇨🇳 `CNY` · 🇨🇿 `CZK` · 🇩🇰 `DKK` · 🇪🇬 `EGP` · 🇪🇺 `EUR` · 🇬🇧 `GBP` · 🇬🇪 `GEL` · 🇭🇰 `HKD` · 🇭🇺 `HUF` · 🇮🇩 `IDR` · 🇮🇱 `ILS` · 🇮🇳 `INR` · 🇮🇷 `IRR` · 🇯🇵 `JPY` · 🇰🇬 `KGS` · 🇰🇷 `KRW` · 🇰🇼 `KWD` · 🇲🇩 `MDL` · 🇲🇳 `MNT` · 🇲🇽 `MXN` · 🇲🇾 `MYR` · 🇳🇴 `NOK` · 🇴🇲 `OMR` · 🇵🇰 `PKR` · 🇵🇱 `PLN` · 🇶🇦 `QAR` · 🇷🇴 `RON` · 🇷🇺 `RUB` · 🇸🇦 `SAR` · 🇸🇪 `SEK` · 🇸🇬 `SGD` · 🇹🇭 `THB` · 🇹🇯 `TJS` · 🇹🇷 `TRY` · 🇺🇦 `UAH` · 🇺🇸 `USD` · 🇺🇿 `UZS` · 🇻🇳 `VND` · `XDR` · 🇿🇦 `ZAR`
 
 ## ⚖️ Published vs derived rates
 
