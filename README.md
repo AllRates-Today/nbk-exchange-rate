@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'KZT', { apiKey: 'art_live_...' });
 {
   bank: 'nbk',
   name: 'National Bank of Kazakhstan',
-  rate_date: '2026-09-25',   // National Bank of Kazakhstan's own publication date
+  rate_date: '2026-10-06',   // National Bank of Kazakhstan's own publication date
   source: 'USD',
   target: 'KZT',
-  rate: 441.89,
+  rate: 454.98,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbk',
   name: 'National Bank of Kazakhstan',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "KZT", "type": "reference", "value": 441.89 },
+    { "base": "USD", "quote": "KZT", "type": "reference", "value": 454.98 },
     // … the rest of the published table (48 currencies vs KZT)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbk-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'KZT', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'KZT', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'KZT',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 441.89, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 454.98, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
