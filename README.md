@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/nbk-exchange-rate.svg)](https://github.com/AllRates-Today/nbk-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/nbk-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/KZT today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbk%3Fsource%3DUSD%26target%3DKZT&query=%24.rate&label=USD%2FKZT%20published%20by%20National%20Bank%20of%20Kazakhstan&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbk/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbk%3Fsource%3DUSD%26target%3DKZT&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbk/)
 
 **Official National Bank of Kazakhstan (Kazakhstan) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers National Bank of Kazakhstan itself prints, every business day.**
 
@@ -32,6 +34,67 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full National Bank of Kazakhstan table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by National Bank of Kazakhstan — 48 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | KZT | reference | 122.24 |
+| AMD | KZT | reference | 1.247 |
+| AUD | KZT | reference | 311.7 |
+| AZN | KZT | reference | 264.86 |
+| BRL | KZT | reference | 89.41 |
+| BYN | KZT | reference | 147.02 |
+| CAD | KZT | reference | 314.89 |
+| CHF | KZT | reference | 538.68 |
+| CNY | KZT | reference | 66.98 |
+| CZK | KZT | reference | 20.58 |
+| DKK | KZT | reference | 67.18 |
+| EGP | KZT | reference | 8.58 |
+| EUR | KZT | reference | 502.05 |
+| GBP | KZT | reference | 592.69 |
+| GEL | KZT | reference | 175.03 |
+| HKD | KZT | reference | 57.21 |
+| HUF | KZT | reference | 1.37 |
+| IDR | KZT | reference | 0.02509 |
+| ILS | KZT | reference | 145.76 |
+| INR | KZT | reference | 4.64 |
+| IRR | KZT | reference | 0.000254 |
+| JPY | KZT | reference | 2.84 |
+| KGS | KZT | reference | 5.13 |
+| KRW | KZT | reference | 0.3338 |
+| KWD | KZT | reference | 1457.12 |
+| MDL | KZT | reference | 25.25 |
+| MNT | KZT | reference | 0.1249 |
+| MXN | KZT | reference | 24.89 |
+| MYR | KZT | reference | 109.82 |
+| NOK | KZT | reference | 46.89 |
+| OMR | KZT | reference | 1166.17 |
+| PKR | KZT | reference | 1.62 |
+| PLN | KZT | reference | 114.67 |
+| QAR | KZT | reference | 123.17 |
+| RON | KZT | reference | 93.98 |
+| RUB | KZT | reference | 5.26 |
+| SAR | KZT | reference | 119.58 |
+| SEK | KZT | reference | 44.8 |
+| SGD | KZT | reference | 350.21 |
+| THB | KZT | reference | 13.33 |
+| TJS | KZT | reference | 48.96 |
+| TRY | KZT | reference | 9.12 |
+| UAH | KZT | reference | 10 |
+| USD | KZT | reference | 448.94 |
+| UZS | KZT | reference | 0.038 |
+| VND | KZT | reference | 0.01734 |
+| XDR | KZT | reference | 607.05 |
+| ZAR | KZT | reference | 26.91 |
+
+Source: [Official rates published by NBK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbk/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
