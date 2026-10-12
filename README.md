@@ -40,58 +40,58 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full National Bank of Kazakhstan table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by National Bank of Kazakhstan — 48 rates. Updated 2026-10-09.
+Published **2026-10-12** by National Bank of Kazakhstan — 48 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KZT | reference | 122.24 |
-| AMD | KZT | reference | 1.247 |
-| AUD | KZT | reference | 311.7 |
-| AZN | KZT | reference | 264.86 |
-| BRL | KZT | reference | 89.41 |
-| BYN | KZT | reference | 147.02 |
-| CAD | KZT | reference | 314.89 |
-| CHF | KZT | reference | 538.68 |
-| CNY | KZT | reference | 66.98 |
-| CZK | KZT | reference | 20.58 |
-| DKK | KZT | reference | 67.18 |
-| EGP | KZT | reference | 8.58 |
-| EUR | KZT | reference | 502.05 |
-| GBP | KZT | reference | 592.69 |
-| GEL | KZT | reference | 175.03 |
-| HKD | KZT | reference | 57.21 |
-| HUF | KZT | reference | 1.37 |
-| IDR | KZT | reference | 0.02509 |
-| ILS | KZT | reference | 145.76 |
-| INR | KZT | reference | 4.64 |
-| IRR | KZT | reference | 0.000254 |
-| JPY | KZT | reference | 2.84 |
-| KGS | KZT | reference | 5.13 |
-| KRW | KZT | reference | 0.3338 |
-| KWD | KZT | reference | 1457.12 |
-| MDL | KZT | reference | 25.25 |
-| MNT | KZT | reference | 0.1249 |
-| MXN | KZT | reference | 24.89 |
-| MYR | KZT | reference | 109.82 |
-| NOK | KZT | reference | 46.89 |
-| OMR | KZT | reference | 1166.17 |
-| PKR | KZT | reference | 1.62 |
-| PLN | KZT | reference | 114.67 |
-| QAR | KZT | reference | 123.17 |
-| RON | KZT | reference | 93.98 |
-| RUB | KZT | reference | 5.26 |
-| SAR | KZT | reference | 119.58 |
-| SEK | KZT | reference | 44.8 |
-| SGD | KZT | reference | 350.21 |
-| THB | KZT | reference | 13.33 |
-| TJS | KZT | reference | 48.96 |
-| TRY | KZT | reference | 9.12 |
-| UAH | KZT | reference | 10 |
-| USD | KZT | reference | 448.94 |
-| UZS | KZT | reference | 0.038 |
-| VND | KZT | reference | 0.01734 |
-| XDR | KZT | reference | 607.05 |
-| ZAR | KZT | reference | 26.91 |
+| AED | KZT | reference | 123.6 |
+| AMD | KZT | reference | 1.259 |
+| AUD | KZT | reference | 316.57 |
+| AZN | KZT | reference | 267.81 |
+| BRL | KZT | reference | 90.45 |
+| BYN | KZT | reference | 149.57 |
+| CAD | KZT | reference | 318.84 |
+| CHF | KZT | reference | 546.18 |
+| CNY | KZT | reference | 67.83 |
+| CZK | KZT | reference | 20.89 |
+| DKK | KZT | reference | 68.06 |
+| EGP | KZT | reference | 8.68 |
+| EUR | KZT | reference | 508.72 |
+| GBP | KZT | reference | 600.1 |
+| GEL | KZT | reference | 177.11 |
+| HKD | KZT | reference | 57.85 |
+| HUF | KZT | reference | 1.394 |
+| IDR | KZT | reference | 0.02539 |
+| ILS | KZT | reference | 148.61 |
+| INR | KZT | reference | 4.69 |
+| IRR | KZT | reference | 0.000257 |
+| JPY | KZT | reference | 2.87 |
+| KGS | KZT | reference | 5.19 |
+| KRW | KZT | reference | 0.3386 |
+| KWD | KZT | reference | 1473.32 |
+| MDL | KZT | reference | 25.56 |
+| MNT | KZT | reference | 0.1263 |
+| MXN | KZT | reference | 24.94 |
+| MYR | KZT | reference | 111.18 |
+| NOK | KZT | reference | 47.4 |
+| OMR | KZT | reference | 1179.1 |
+| PKR | KZT | reference | 1.64 |
+| PLN | KZT | reference | 116.15 |
+| QAR | KZT | reference | 124.78 |
+| RON | KZT | reference | 95.31 |
+| RUB | KZT | reference | 5.35 |
+| SAR | KZT | reference | 120.91 |
+| SEK | KZT | reference | 45.51 |
+| SGD | KZT | reference | 354.55 |
+| THB | KZT | reference | 13.55 |
+| TJS | KZT | reference | 49.61 |
+| TRY | KZT | reference | 9.24 |
+| UAH | KZT | reference | 10.11 |
+| USD | KZT | reference | 453.93 |
+| UZS | KZT | reference | 0.0382 |
+| VND | KZT | reference | 0.01754 |
+| XDR | KZT | reference | 613.64 |
+| ZAR | KZT | reference | 27.44 |
 
 Source: [Official rates published by NBK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbk/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
