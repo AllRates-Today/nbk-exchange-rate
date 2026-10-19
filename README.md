@@ -33,67 +33,70 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/nbk').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest National Bank of Kazakhstan table](https://allratestoday.com/api/open/central-bank/nbk/table.svg)](https://allratestoday.com/central-bank-rates-api/nbk/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by National Bank of Kazakhstan — 48 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by National Bank of Kazakhstan — 48 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KZT | reference | 123.66 |
-| AMD | KZT | reference | 1.265 |
-| AUD | KZT | reference | 314.26 |
-| AZN | KZT | reference | 267.93 |
-| BRL | KZT | reference | 89.96 |
-| BYN | KZT | reference | 150.77 |
-| CAD | KZT | reference | 319.79 |
-| CHF | KZT | reference | 547.35 |
-| CNY | KZT | reference | 67.87 |
-| CZK | KZT | reference | 20.91 |
-| DKK | KZT | reference | 68.13 |
-| EGP | KZT | reference | 8.5 |
-| EUR | KZT | reference | 509.23 |
-| GBP | KZT | reference | 601.55 |
-| GEL | KZT | reference | 177.33 |
-| HKD | KZT | reference | 57.88 |
-| HUF | KZT | reference | 1.402 |
-| IDR | KZT | reference | 0.02534 |
-| ILS | KZT | reference | 146.43 |
-| INR | KZT | reference | 4.78 |
-| IRR | KZT | reference | 0.000255 |
-| JPY | KZT | reference | 2.88 |
-| KGS | KZT | reference | 5.19 |
-| KRW | KZT | reference | 0.3378 |
-| KWD | KZT | reference | 1474 |
-| MDL | KZT | reference | 25.51 |
-| MNT | KZT | reference | 0.1263 |
-| MXN | KZT | reference | 24.57 |
-| MYR | KZT | reference | 111.31 |
-| NOK | KZT | reference | 47.76 |
-| OMR | KZT | reference | 1179.95 |
-| PKR | KZT | reference | 1.64 |
-| PLN | KZT | reference | 116.58 |
-| QAR | KZT | reference | 124.59 |
-| RON | KZT | reference | 95.49 |
+| AED | KZT | reference | 123.11 |
+| AMD | KZT | reference | 1.258 |
+| AUD | KZT | reference | 314.72 |
+| AZN | KZT | reference | 266.74 |
+| BRL | KZT | reference | 88.68 |
+| BYN | KZT | reference | 150.93 |
+| CAD | KZT | reference | 319.47 |
+| CHF | KZT | reference | 549.42 |
+| CNY | KZT | reference | 67.62 |
+| CZK | KZT | reference | 20.93 |
+| DKK | KZT | reference | 68.1 |
+| EGP | KZT | reference | 8.47 |
+| EUR | KZT | reference | 508.95 |
+| GBP | KZT | reference | 602.95 |
+| GEL | KZT | reference | 176.54 |
+| HKD | KZT | reference | 57.61 |
+| HUF | KZT | reference | 1.401 |
+| IDR | KZT | reference | 0.02512 |
+| ILS | KZT | reference | 146.3 |
+| INR | KZT | reference | 4.76 |
+| IRR | KZT | reference | 0.000254 |
+| JPY | KZT | reference | 2.86 |
+| KGS | KZT | reference | 5.17 |
+| KRW | KZT | reference | 0.3397 |
+| KWD | KZT | reference | 1467.45 |
+| MDL | KZT | reference | 25.43 |
+| MNT | KZT | reference | 0.1257 |
+| MXN | KZT | reference | 24.62 |
+| MYR | KZT | reference | 110.84 |
+| NOK | KZT | reference | 47.9 |
+| OMR | KZT | reference | 1174.4 |
+| PKR | KZT | reference | 1.63 |
+| PLN | KZT | reference | 116.53 |
+| QAR | KZT | reference | 124.04 |
+| RON | KZT | reference | 95.42 |
 | RUB | KZT | reference | 5.41 |
-| SAR | KZT | reference | 121.02 |
-| SEK | KZT | reference | 45.56 |
-| SGD | KZT | reference | 354.11 |
-| THB | KZT | reference | 13.56 |
-| TJS | KZT | reference | 49.52 |
-| TRY | KZT | reference | 9.19 |
-| UAH | KZT | reference | 10.13 |
-| USD | KZT | reference | 454.14 |
-| UZS | KZT | reference | 0.038 |
-| VND | KZT | reference | 0.01755 |
-| XDR | KZT | reference | 614.38 |
-| ZAR | KZT | reference | 27.5 |
+| SAR | KZT | reference | 120.49 |
+| SEK | KZT | reference | 45.7 |
+| SGD | KZT | reference | 353.58 |
+| THB | KZT | reference | 13.54 |
+| TJS | KZT | reference | 49.3 |
+| TRY | KZT | reference | 9.14 |
+| UAH | KZT | reference | 10.08 |
+| USD | KZT | reference | 452.12 |
+| UZS | KZT | reference | 0.0376 |
+| VND | KZT | reference | 0.01746 |
+| XDR | KZT | reference | 612.17 |
+| ZAR | KZT | reference | 27.52 |
+
+</details>
 
 Source: [Official rates published by NBK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbk/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -366,7 +369,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/nbk-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/nbk-exchange-rate)
 
 ## 📜 License
