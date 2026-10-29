@@ -47,58 +47,58 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by National Bank of Kazakhstan — 48 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by National Bank of Kazakhstan — 48 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KZT | reference | 124.07 |
-| AMD | KZT | reference | 1.276 |
-| AUD | KZT | reference | 320.35 |
-| AZN | KZT | reference | 268.81 |
-| BRL | KZT | reference | 84.82 |
-| BYN | KZT | reference | 155.23 |
-| CAD | KZT | reference | 325.15 |
-| CHF | KZT | reference | 550.08 |
-| CNY | KZT | reference | 68.34 |
-| CZK | KZT | reference | 20.86 |
-| DKK | KZT | reference | 67.96 |
-| EGP | KZT | reference | 8.12 |
-| EUR | KZT | reference | 507.89 |
-| GBP | KZT | reference | 606.72 |
-| GEL | KZT | reference | 177.63 |
-| HKD | KZT | reference | 58.08 |
+| AED | KZT | reference | 124.45 |
+| AMD | KZT | reference | 1.28 |
+| AUD | KZT | reference | 321.2 |
+| AZN | KZT | reference | 269.67 |
+| BRL | KZT | reference | 85.45 |
+| BYN | KZT | reference | 155.37 |
+| CAD | KZT | reference | 325.26 |
+| CHF | KZT | reference | 550.51 |
+| CNY | KZT | reference | 68.56 |
+| CZK | KZT | reference | 20.87 |
+| DKK | KZT | reference | 68.03 |
+| EGP | KZT | reference | 8.14 |
+| EUR | KZT | reference | 508.42 |
+| GBP | KZT | reference | 606.79 |
+| GEL | KZT | reference | 178.2 |
+| HKD | KZT | reference | 58.27 |
 | HUF | KZT | reference | 1.385 |
-| IDR | KZT | reference | 0.02511 |
-| ILS | KZT | reference | 149.2 |
-| INR | KZT | reference | 4.79 |
-| IRR | KZT | reference | 0.000245 |
+| IDR | KZT | reference | 0.02515 |
+| ILS | KZT | reference | 146.77 |
+| INR | KZT | reference | 4.8 |
+| IRR | KZT | reference | 0.000246 |
 | JPY | KZT | reference | 2.89 |
-| KGS | KZT | reference | 5.21 |
-| KRW | KZT | reference | 0.3432 |
-| KWD | KZT | reference | 1478.84 |
-| MDL | KZT | reference | 25.5 |
-| MNT | KZT | reference | 0.1266 |
+| KGS | KZT | reference | 5.23 |
+| KRW | KZT | reference | 0.3415 |
+| KWD | KZT | reference | 1482.61 |
+| MDL | KZT | reference | 25.61 |
+| MNT | KZT | reference | 0.127 |
 | MXN | KZT | reference | 24.5 |
-| MYR | KZT | reference | 111.48 |
-| NOK | KZT | reference | 48.93 |
-| OMR | KZT | reference | 1183.49 |
+| MYR | KZT | reference | 112.2 |
+| NOK | KZT | reference | 49.04 |
+| OMR | KZT | reference | 1187.28 |
 | PKR | KZT | reference | 1.65 |
-| PLN | KZT | reference | 115.32 |
-| QAR | KZT | reference | 125.1 |
-| RON | KZT | reference | 95.01 |
-| RUB | KZT | reference | 5.65 |
-| SAR | KZT | reference | 121.41 |
-| SEK | KZT | reference | 45.82 |
-| SGD | KZT | reference | 355.66 |
-| THB | KZT | reference | 13.5 |
-| TJS | KZT | reference | 49.8 |
-| TRY | KZT | reference | 9.15 |
-| UAH | KZT | reference | 9.99 |
-| USD | KZT | reference | 455.63 |
-| UZS | KZT | reference | 0.0384 |
-| VND | KZT | reference | 0.01764 |
-| XDR | KZT | reference | 617.3 |
-| ZAR | KZT | reference | 27.37 |
+| PLN | KZT | reference | 115.37 |
+| QAR | KZT | reference | 125.4 |
+| RON | KZT | reference | 95.08 |
+| RUB | KZT | reference | 5.67 |
+| SAR | KZT | reference | 121.81 |
+| SEK | KZT | reference | 46 |
+| SGD | KZT | reference | 356.46 |
+| THB | KZT | reference | 13.54 |
+| TJS | KZT | reference | 49.9 |
+| TRY | KZT | reference | 9.17 |
+| UAH | KZT | reference | 10.03 |
+| USD | KZT | reference | 457.09 |
+| UZS | KZT | reference | 0.0381 |
+| VND | KZT | reference | 0.01768 |
+| XDR | KZT | reference | 618.27 |
+| ZAR | KZT | reference | 27.44 |
 
 </details>
 
@@ -263,6 +263,7 @@ The National Bank of Kazakhstan is the central bank of the largest economy in Ce
 
 - Publisher's own page: [Daily official market exchange rates](https://nationalbank.kz/en/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut) · [nationalbank.kz](https://nationalbank.kz)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [National Bank of Kazakhstan rates page](https://allratestoday.com/central-bank-rates-api/nbk/)
+- In the API: usually by **07:15 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
