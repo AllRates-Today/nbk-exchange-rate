@@ -24,81 +24,66 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest National Bank of Kazakhstan table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/nbk?source=USD&target=KZT"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/nbk').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest National Bank of Kazakhstan table](https://allratestoday.com/api/open/central-bank/nbk/table.svg)](https://allratestoday.com/central-bank-rates-api/nbk/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by National Bank of Kazakhstan — 48 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by National Bank of Kazakhstan — 48 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KZT | reference | 124.45 |
-| AMD | KZT | reference | 1.28 |
-| AUD | KZT | reference | 321.2 |
-| AZN | KZT | reference | 269.67 |
-| BRL | KZT | reference | 85.45 |
-| BYN | KZT | reference | 155.37 |
-| CAD | KZT | reference | 325.26 |
-| CHF | KZT | reference | 550.51 |
-| CNY | KZT | reference | 68.56 |
-| CZK | KZT | reference | 20.87 |
-| DKK | KZT | reference | 68.03 |
-| EGP | KZT | reference | 8.14 |
-| EUR | KZT | reference | 508.42 |
-| GBP | KZT | reference | 606.79 |
-| GEL | KZT | reference | 178.2 |
-| HKD | KZT | reference | 58.27 |
-| HUF | KZT | reference | 1.385 |
-| IDR | KZT | reference | 0.02515 |
-| ILS | KZT | reference | 146.77 |
-| INR | KZT | reference | 4.8 |
-| IRR | KZT | reference | 0.000246 |
-| JPY | KZT | reference | 2.89 |
-| KGS | KZT | reference | 5.23 |
-| KRW | KZT | reference | 0.3415 |
-| KWD | KZT | reference | 1482.61 |
-| MDL | KZT | reference | 25.61 |
-| MNT | KZT | reference | 0.127 |
-| MXN | KZT | reference | 24.5 |
-| MYR | KZT | reference | 112.2 |
-| NOK | KZT | reference | 49.04 |
-| OMR | KZT | reference | 1187.28 |
-| PKR | KZT | reference | 1.65 |
-| PLN | KZT | reference | 115.37 |
-| QAR | KZT | reference | 125.4 |
-| RON | KZT | reference | 95.08 |
-| RUB | KZT | reference | 5.67 |
-| SAR | KZT | reference | 121.81 |
-| SEK | KZT | reference | 46 |
-| SGD | KZT | reference | 356.46 |
-| THB | KZT | reference | 13.54 |
-| TJS | KZT | reference | 49.9 |
-| TRY | KZT | reference | 9.17 |
-| UAH | KZT | reference | 10.03 |
-| USD | KZT | reference | 457.09 |
-| UZS | KZT | reference | 0.0381 |
-| VND | KZT | reference | 0.01768 |
-| XDR | KZT | reference | 618.27 |
-| ZAR | KZT | reference | 27.44 |
+| AED | KZT | reference | 123.54 |
+| AMD | KZT | reference | 1.271 |
+| AUD | KZT | reference | 319.18 |
+| AZN | KZT | reference | 267.68 |
+| BRL | KZT | reference | 84.86 |
+| BYN | KZT | reference | 154.2 |
+| CAD | KZT | reference | 324.4 |
+| CHF | KZT | reference | 547.83 |
+| CNY | KZT | reference | 68.11 |
+| CZK | KZT | reference | 20.79 |
+| DKK | KZT | reference | 67.69 |
+| EGP | KZT | reference | 8.1 |
+| EUR | KZT | reference | 505.8 |
+| GBP | KZT | reference | 604.43 |
+| GEL | KZT | reference | 176.95 |
+| HKD | KZT | reference | 57.83 |
+| HUF | KZT | reference | 1.382 |
+| IDR | KZT | reference | 0.02503 |
+| ILS | KZT | reference | 145.91 |
+| INR | KZT | reference | 4.76 |
+| IRR | KZT | reference | 0.000243 |
+| JPY | KZT | reference | 2.87 |
+| KGS | KZT | reference | 5.19 |
+| KRW | KZT | reference | 0.3392 |
+| KWD | KZT | reference | 1472.13 |
+| MDL | KZT | reference | 25.42 |
+| MNT | KZT | reference | 0.1261 |
+| MXN | KZT | reference | 24.24 |
+| MYR | KZT | reference | 111.83 |
+| NOK | KZT | reference | 48.89 |
+| OMR | KZT | reference | 1178.5 |
+| PKR | KZT | reference | 1.64 |
+| PLN | KZT | reference | 115.06 |
+| QAR | KZT | reference | 124.47 |
+| RON | KZT | reference | 94.69 |
+| RUB | KZT | reference | 5.63 |
+| SAR | KZT | reference | 120.9 |
+| SEK | KZT | reference | 45.91 |
+| SGD | KZT | reference | 354.27 |
+| THB | KZT | reference | 13.45 |
+| TJS | KZT | reference | 49.64 |
+| TRY | KZT | reference | 9.1 |
+| UAH | KZT | reference | 9.96 |
+| USD | KZT | reference | 453.71 |
+| UZS | KZT | reference | 0.0377 |
+| VND | KZT | reference | 0.01759 |
+| XDR | KZT | reference | 613.32 |
+| ZAR | KZT | reference | 27.3 |
 
 </details>
 
