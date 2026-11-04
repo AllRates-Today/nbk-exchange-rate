@@ -32,58 +32,58 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-03 by National Bank of Kazakhstan — 48 rates. Updated 2026-11-03.</summary>
+<summary>Table as text: published 2026-11-04 by National Bank of Kazakhstan — 48 rates. Updated 2026-11-04.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KZT | reference | 123.51 |
-| AMD | KZT | reference | 1.263 |
-| AUD | KZT | reference | 317.96 |
-| AZN | KZT | reference | 267.63 |
-| BRL | KZT | reference | 83.38 |
-| BYN | KZT | reference | 153.36 |
-| CAD | KZT | reference | 324.47 |
-| CHF | KZT | reference | 552.48 |
-| CNY | KZT | reference | 68.23 |
-| CZK | KZT | reference | 20.89 |
-| DKK | KZT | reference | 68 |
+| AED | KZT | reference | 123.42 |
+| AMD | KZT | reference | 1.266 |
+| AUD | KZT | reference | 316.28 |
+| AZN | KZT | reference | 267.41 |
+| BRL | KZT | reference | 83.37 |
+| BYN | KZT | reference | 152.89 |
+| CAD | KZT | reference | 324.8 |
+| CHF | KZT | reference | 553.57 |
+| CNY | KZT | reference | 67.93 |
+| CZK | KZT | reference | 20.82 |
+| DKK | KZT | reference | 67.8 |
 | EGP | KZT | reference | 8.19 |
-| EUR | KZT | reference | 508.17 |
-| GBP | KZT | reference | 607.92 |
-| GEL | KZT | reference | 176.86 |
-| HKD | KZT | reference | 57.82 |
-| HUF | KZT | reference | 1.394 |
-| IDR | KZT | reference | 0.02501 |
-| ILS | KZT | reference | 144.75 |
+| EUR | KZT | reference | 506.7 |
+| GBP | KZT | reference | 607.82 |
+| GEL | KZT | reference | 176.71 |
+| HKD | KZT | reference | 57.77 |
+| HUF | KZT | reference | 1.389 |
+| IDR | KZT | reference | 0.02499 |
+| ILS | KZT | reference | 143.31 |
 | INR | KZT | reference | 4.78 |
-| IRR | KZT | reference | 0.000243 |
-| JPY | KZT | reference | 2.87 |
-| KGS | KZT | reference | 5.19 |
-| KRW | KZT | reference | 0.3381 |
-| KWD | KZT | reference | 1472.38 |
-| MDL | KZT | reference | 25.37 |
-| MNT | KZT | reference | 0.126 |
-| MXN | KZT | reference | 24.22 |
-| MYR | KZT | reference | 111.51 |
-| NOK | KZT | reference | 48.96 |
-| OMR | KZT | reference | 1178.32 |
+| IRR | KZT | reference | 0.000241 |
+| JPY | KZT | reference | 2.86 |
+| KGS | KZT | reference | 5.18 |
+| KRW | KZT | reference | 0.3371 |
+| KWD | KZT | reference | 1471.62 |
+| MDL | KZT | reference | 25.28 |
+| MNT | KZT | reference | 0.1259 |
+| MXN | KZT | reference | 24.38 |
+| MYR | KZT | reference | 111.23 |
+| NOK | KZT | reference | 49.1 |
+| OMR | KZT | reference | 1177.33 |
 | PKR | KZT | reference | 1.64 |
-| PLN | KZT | reference | 115.09 |
-| QAR | KZT | reference | 124.56 |
-| RON | KZT | reference | 95.21 |
-| RUB | KZT | reference | 5.59 |
-| SAR | KZT | reference | 120.88 |
-| SEK | KZT | reference | 46.48 |
-| SGD | KZT | reference | 354.57 |
-| THB | KZT | reference | 13.44 |
-| TJS | KZT | reference | 49.58 |
-| TRY | KZT | reference | 9.08 |
-| UAH | KZT | reference | 9.94 |
-| USD | KZT | reference | 453.64 |
+| PLN | KZT | reference | 114.67 |
+| QAR | KZT | reference | 124.39 |
+| RON | KZT | reference | 94.87 |
+| RUB | KZT | reference | 5.58 |
+| SAR | KZT | reference | 120.76 |
+| SEK | KZT | reference | 46.26 |
+| SGD | KZT | reference | 353.97 |
+| THB | KZT | reference | 13.43 |
+| TJS | KZT | reference | 49.59 |
+| TRY | KZT | reference | 9.07 |
+| UAH | KZT | reference | 9.93 |
+| USD | KZT | reference | 453.26 |
 | UZS | KZT | reference | 0.038 |
-| VND | KZT | reference | 0.01762 |
-| XDR | KZT | reference | 615.2 |
-| ZAR | KZT | reference | 27.26 |
+| VND | KZT | reference | 0.01759 |
+| XDR | KZT | reference | 614.66 |
+| ZAR | KZT | reference | 27.23 |
 
 </details>
 
